@@ -123,6 +123,8 @@ p {
   margin: 0 auto;
   text-shadow: 2px 2px 8px #ffffff;
   z-index: 3;
+  font-size: 1.5em;
+  @include respond-to(small-screens) {font-size: 2em;};
   @include respond-to(medium-screens){font-size: 3em; width: 400px; top: 63px; left: 9px; margin: 0; line-height: 60px;};
 }
 .main {

@@ -14,10 +14,12 @@ $red: #ed1c2e;
 $light-blue: #20a0de;
 $light-gray:#eeeeee;
 $dark-gray: #333333;
-//Breakpoints
+//Wrappers
 $wrapper: 1254px;
 $wrapper-content:960px;
 $wrapper-content-footer-mobile:287px;
+//Breakpoints
+$small-device: 350px;
 $medium-device:480px;
 $medium-device-footer:780px;
 $large-device-footer:1320px;

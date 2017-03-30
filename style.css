@@ -391,7 +391,11 @@ p {
   right: 0;
   margin: 0 auto;
   text-shadow: 2px 2px 8px #ffffff;
-  z-index: 3; }
+  z-index: 3;
+  font-size: 1.5em; }
+  @media only screen and (min-width: 350px) {
+    .banner-title {
+      font-size: 2em; } }
   @media only screen and (min-width: 480px) {
     .banner-title {
       font-size: 3em;
