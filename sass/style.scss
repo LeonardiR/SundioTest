@@ -1,0 +1,240 @@
+//Variables and Mixins
+@import "settings";
+@import "tools";
+.wrapper {
+  max-width: $wrapper;
+  margin: 0 auto;
+}
+.wrapper-content {
+  position: relative;
+  max-width: $wrapper-content;
+  margin: 0 auto;
+}
+.wrapper-content-footer {
+  position: relative;
+  max-width: $wrapper-content-footer-mobile;
+  margin: 0 auto;
+  @include respond-to(medium-screens) { max-width: $wrapper-content;};
+}
+body {
+  background-color: $light-gray;
+  font-family: $arial;
+  margin: 0;
+}
+p {
+  line-height: $line-height;
+}
+.header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 110px;
+  background-color: $white;
+  text-align: center;
+}
+.header-line {
+  height: 5px;
+}
+.header-slogan {
+  display: none;
+  position: absolute;
+  color: $red;
+  text-align: center;
+  left: 285px;
+  top: 29px;
+  @include respond-to(wide-screens){display:block;};
+}
+.trusted-logos{
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 5px;
+  text-align: center;
+  width: 167px;
+  @include respond-to(wide-screens){display:block;};
+}
+.trusted-logos img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 22%;
+}
+#header-line-red {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 20px;
+  background-color: $red;
+}
+#header-line-yellow {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 8px;
+  background-color: $mustard;
+}
+#header-line-blue {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  background-color: $light-blue;
+}
+.logo {
+  width: 280px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  @include respond-to(medium-screens) { left: 32px; margin: 0; };
+  @include respond-to(wide-screens) { top:54px; width: 244px; };
+}
+.banner {
+  position: relative;
+  display: block;
+  text-align: center;
+  height: 300px;
+  background: url("img/heading-bg.jpg") no-repeat center;
+  background-size: cover;
+  @include respond-to(medium-screens){ height: 315px;};
+  @include respond-to(wide-screens){height: 362px;};
+}
+.banner-border {
+  position: absolute;
+  background: url("img/wave-mobile.png") no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  height: 115px;
+  z-index: 2;
+  top:250px;
+  left: 0;
+  right: 0;
+  @include respond-to(medium-screens){background: url("img/wave-tablet.png") no-repeat 0 0; top: 269px; background-size: cover; height: 85px;};
+  @include respond-to(wide-screens){background: url("img/wave.png") no-repeat 0 0; background-size: cover; top: 300px; height: 100px; }
+}
+.banner-title {
+  position: absolute;
+  top: 278px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-shadow: 2px 2px 8px #ffffff;
+  z-index: 3;
+  @include respond-to(medium-screens){font-size: 3em; width: 400px; top: 63px; left: 9px; margin: 0; line-height: 60px;};
+}
+.main {
+  background-color: $white;
+  padding: 60px 25px;
+  text-align: center;
+}
+.intro-title {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  @include respond-to(medium-screens){margin-top: 0;};
+}
+.intro-subtitle {
+  color: $red;
+  margin-bottom: 45px;
+}
+.intro-text {
+  margin-bottom: 45px;
+}
+.intro-button{
+  margin-top: 65px;
+}
+.intro-button a {
+  background-color: $red;
+  color: $white;
+  padding: 8px 25px;
+  border-radius: 10px;
+}
+footer {
+  position: relative;
+  margin-top: 200px;
+  background-color: $yellow;
+  padding: 0 17px 17px;
+  @include respond-to(medium-screens-footer){ padding: 0px 25px 31px 25px;};
+}
+.footer-logo {
+  display: block;
+  position: absolute;
+  width: 203px;
+  left: 0;
+  top: -93px;
+  z-index: 2;
+  @include respond-to(medium-screens-footer){top: -77px;};
+}
+.footer-slogan {
+  position: relative;
+  width: 287px;
+  color: $red;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  @include respond-to(medium-screens-footer){position: absolute; width: auto; top: -75px; right: 0;};
+}
+.footer-border{
+  position: absolute;
+  background: url("img/wave-mobile.png") no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  right: 0;
+  @include respond-to(medium-screens) { background: url("img/wave-tablet.png") no-repeat 0 0; background-size: cover; height: 78px;};
+  @include respond-to(wide-screens){background: url("img/wave.png") no-repeat 0 0; background-size: cover; height: 78px; top:-47px};
+}
+.footer-links{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  @include respond-to(medium-screens-footer){text-align: left; padding: 30px 30px; display: inline-block; vertical-align: top; width: 187px;};
+}
+.footer-link{
+  margin-bottom: 15px;
+}
+.footer-links-vakanties{
+  display: none;
+  @include respond-to(medium-screens-footer){display: inline-block; vertical-align: top; width: 500px;};
+  @include respond-to(wide-screens-footer){width: 750px;}
+}
+.footer-links-vakanties h5{
+  margin-top: 0;
+}
+.footer-links-sunweb{
+  width: 117px;
+}
+#footer-links-auto{
+  padding-top: 0;
+  @include respond-to(wide-screens-footer){padding-top: 30px;};
+}
+.footer-links-contact{
+  display: none;
+  @include respond-to(medium-screens-footer){display: block; width: 570px; margin-left: 179px;};
+}
+.footer-links-contact h5{
+  margin-top: 0;
+}
+#footer-links-contactus {
+  width: 281px;
+  line-height: 9px;
+  padding-top: 0;
+  padding-right: 0;
+  margin-left: 54px;
+}
+#footer-links-social{
+  width: 127px;
+  padding-top: 0;
+}
+#footer-links-social li{
+  display: inline-block;
+}
+

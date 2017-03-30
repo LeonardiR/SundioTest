@@ -1,0 +1,16 @@
+@import "settings";
+
+@mixin respond-to($media) {
+  @if $media == medium-screens {
+    @media only screen and (min-width: $medium-device){ @content; }
+  }
+  @else if $media == medium-screens-footer{
+    @media only screen and (min-width: $medium-device-footer){ @content; }
+  }
+  @else if $media == wide-screens-footer{
+    @media only screen and (min-width: $large-device-footer){ @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $large-device) { @content; }
+  }
+}

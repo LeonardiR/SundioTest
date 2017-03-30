@@ -1,0 +1,554 @@
+@font-face {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/sunweb-icons/fonts/sunweb-icons.eot?-nhl0i");
+  src: url("fonts/sunweb-icons/fonts/sunweb-icons.eot?#iefix-nhl0i") format("embedded-opentype"), url("fonts/sunweb-icons/fonts/sunweb-icons.ttf?-nhl0i") format("truetype"), url("fonts/sunweb-icons/fonts/sunweb-icons.woff?-nhl0i") format("woff"), url("fonts/sunweb-icons/fonts/sunweb-icons.svg?-nhl0i#sunweb-icons") format("svg"); }
+.icon {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-airplane:before {
+  content: '\e600'; }
+
+.icon-cars:before {
+  content: '\e601'; }
+
+.icon-family:before {
+  content: '\e602'; }
+
+.icon-mountains:before {
+  content: '\e603'; }
+
+.icon-sun:before {
+  content: '\e604'; }
+
+.icon-calendar:before {
+  content: '\e605'; }
+
+.icon-calendar-overview:before {
+  content: '\e606'; }
+
+.icon-clock:before {
+  content: '\e607'; }
+
+.icon-info:before {
+  content: '\e610'; }
+
+.icon-angle-left:before {
+  content: '\e608'; }
+
+.icon-angle-right:before {
+  content: '\e609'; }
+
+.icon-facebook:before {
+  content: '\e60a'; }
+
+.icon-facebook-square:before {
+  content: '\e60b'; }
+
+.icon-google-plus:before {
+  content: '\e60c'; }
+
+.icon-google-plus-square:before {
+  content: '\e60d'; }
+
+.icon-twitter:before {
+  content: '\e60e'; }
+
+.icon-twitter-square:before {
+  content: '\e60f'; }
+
+.icon-xs {
+  font-size: 50%; }
+
+.icon-sm {
+  font-size: 75%; }
+
+.icon-lg {
+  font-size: 150%; }
+
+.icon-xl {
+  font-size: 200%; }
+
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/forsd-folly/fords-folly.eot");
+  src: url("fonts/forsd-folly/fords-folly.eot?#iefix") format("embedded-opentype"), url("fonts/forsd-folly/fords-folly.woff2") format("woff2"), url("fonts/forsd-folly/fords-folly.woff") format("woff"), url("fonts/forsd-folly/fords-folly.ttf") format("truetype"), url("fonts/forsd-folly/fords-folly.svg#fordsfolly") format("svg"); }
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/forsd-folly/fords-folly.eot");
+  src: url("fonts/forsd-folly/fords-folly.eot?#iefix") format("embedded-opentype"), url("fonts/forsd-folly/fords-folly.woff2") format("woff2"), url("fonts/forsd-folly/fords-folly.woff") format("woff"), url("fonts/forsd-folly/fords-folly.ttf") format("truetype"), url("fonts/forsd-folly/fords-folly.svg#fords-folly") format("svg"); }
+.font-fords-folly {
+  font-family: "Fords Folly", Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pacifico/pacifico.eot");
+  src: url("fonts/pacifico/pacifico.eot?#iefix") format("embedded-opentype"), url("fonts/pacifico/pacifico.woff") format("woff"), url("fonts/pacifico/pacifico.ttf") format("truetype"), url("fonts/pacifico/pacifico.svg#pacifico") format("svg"); }
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pacifico/pacifico.eot");
+  src: url("fonts/pacifico/pacifico.eot?#iefix") format("embedded-opentype"), url("fonts/pacifico/pacifico.woff") format("woff"), url("fonts/pacifico/pacifico.ttf") format("truetype"), url("fonts/pacifico/pacifico.svg#pacifico") format("svg"); }
+.font-pacifico {
+  font-family: "Pacifico", Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/sansa-pro/sansa-pro.eot");
+  src: url("fonts/sansa-pro/sansa-pro.eot?#iefix") format("embedded-opentype"), url("fonts/sansa-pro/sansa-pro.woff") format("woff"), url("fonts/sansa-pro/sansa-pro.ttf") format("truetype"), url("fonts/sansa-pro/sansa-pro.svg#sansa-pro") format("svg"); }
+.font-sansa-pro {
+  font-family: "Sansa Pro", Verdana, Arial, sans-serif; }
+
+@font-face {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/sunweb-icons/fonts/sunweb-icons.eot?-nhl0i");
+  src: url("fonts/sunweb-icons/fonts/sunweb-icons.eot?#iefix-nhl0i") format("embedded-opentype"), url("fonts/sunweb-icons/fonts/sunweb-icons.ttf?-nhl0i") format("truetype"), url("fonts/sunweb-icons/fonts/sunweb-icons.woff?-nhl0i") format("woff"), url("fonts/sunweb-icons/fonts/sunweb-icons.svg?-nhl0i#sunweb-icons") format("svg"); }
+.icon {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-airplane:before {
+  content: '\e600'; }
+
+.icon-cars:before {
+  content: '\e601'; }
+
+.icon-family:before {
+  content: '\e602'; }
+
+.icon-mountains:before {
+  content: '\e603'; }
+
+.icon-sun:before {
+  content: '\e604'; }
+
+.icon-calendar:before {
+  content: '\e605'; }
+
+.icon-calendar-overview:before {
+  content: '\e606'; }
+
+.icon-clock:before {
+  content: '\e607'; }
+
+.icon-info:before {
+  content: '\e610'; }
+
+.icon-angle-left:before {
+  content: '\e608'; }
+
+.icon-angle-right:before {
+  content: '\e609'; }
+
+.icon-facebook:before {
+  content: '\e60a'; }
+
+.icon-facebook-square:before {
+  content: '\e60b'; }
+
+.icon-google-plus:before {
+  content: '\e60c'; }
+
+.icon-google-plus-square:before {
+  content: '\e60d'; }
+
+.icon-twitter:before {
+  content: '\e60e'; }
+
+.icon-twitter-square:before {
+  content: '\e60f'; }
+
+.icon-xs {
+  font-size: 50%; }
+
+.icon-sm {
+  font-size: 75%; }
+
+.icon-lg {
+  font-size: 150%; }
+
+.icon-xl {
+  font-size: 200%; }
+
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/forsd-folly/fords-folly.eot");
+  src: url("fonts/forsd-folly/fords-folly.eot?#iefix") format("embedded-opentype"), url("fonts/forsd-folly/fords-folly.woff2") format("woff2"), url("fonts/forsd-folly/fords-folly.woff") format("woff"), url("fonts/forsd-folly/fords-folly.ttf") format("truetype"), url("fonts/forsd-folly/fords-folly.svg#fordsfolly") format("svg"); }
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/forsd-folly/fords-folly.eot");
+  src: url("fonts/forsd-folly/fords-folly.eot?#iefix") format("embedded-opentype"), url("fonts/forsd-folly/fords-folly.woff2") format("woff2"), url("fonts/forsd-folly/fords-folly.woff") format("woff"), url("fonts/forsd-folly/fords-folly.ttf") format("truetype"), url("fonts/forsd-folly/fords-folly.svg#fords-folly") format("svg"); }
+.font-fords-folly {
+  font-family: "Fords Folly", Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pacifico/pacifico.eot");
+  src: url("fonts/pacifico/pacifico.eot?#iefix") format("embedded-opentype"), url("fonts/pacifico/pacifico.woff") format("woff"), url("fonts/pacifico/pacifico.ttf") format("truetype"), url("fonts/pacifico/pacifico.svg#pacifico") format("svg"); }
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pacifico/pacifico.eot");
+  src: url("fonts/pacifico/pacifico.eot?#iefix") format("embedded-opentype"), url("fonts/pacifico/pacifico.woff") format("woff"), url("fonts/pacifico/pacifico.ttf") format("truetype"), url("fonts/pacifico/pacifico.svg#pacifico") format("svg"); }
+.font-pacifico {
+  font-family: "Pacifico", Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/sansa-pro/sansa-pro.eot");
+  src: url("fonts/sansa-pro/sansa-pro.eot?#iefix") format("embedded-opentype"), url("fonts/sansa-pro/sansa-pro.woff") format("woff"), url("fonts/sansa-pro/sansa-pro.ttf") format("truetype"), url("fonts/sansa-pro/sansa-pro.svg#sansa-pro") format("svg"); }
+.font-sansa-pro {
+  font-family: "Sansa Pro", Verdana, Arial, sans-serif; }
+
+.wrapper {
+  max-width: 1254px;
+  margin: 0 auto; }
+
+.wrapper-content {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto; }
+
+.wrapper-content-footer {
+  position: relative;
+  max-width: 287px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 480px) {
+    .wrapper-content-footer {
+      max-width: 960px; } }
+
+body {
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+  margin: 0; }
+
+p {
+  line-height: 30px; }
+
+.header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 110px;
+  background-color: #ffffff;
+  text-align: center; }
+
+.header-line {
+  height: 5px; }
+
+.header-slogan {
+  display: none;
+  position: absolute;
+  color: #ed1c2e;
+  text-align: center;
+  left: 285px;
+  top: 29px; }
+  @media only screen and (min-width: 960px) {
+    .header-slogan {
+      display: block; } }
+
+.trusted-logos {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 5px;
+  text-align: center;
+  width: 167px; }
+  @media only screen and (min-width: 960px) {
+    .trusted-logos {
+      display: block; } }
+
+.trusted-logos img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22%; }
+
+#header-line-red {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 20px;
+  background-color: #ed1c2e; }
+
+#header-line-yellow {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 8px;
+  background-color: #f99500; }
+
+#header-line-blue {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  background-color: #20a0de; }
+
+.logo {
+  width: 280px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2; }
+  @media only screen and (min-width: 480px) {
+    .logo {
+      left: 32px;
+      margin: 0; } }
+  @media only screen and (min-width: 960px) {
+    .logo {
+      top: 54px;
+      width: 244px; } }
+
+.banner {
+  position: relative;
+  display: block;
+  text-align: center;
+  height: 300px;
+  background: url("img/heading-bg.jpg") no-repeat center;
+  background-size: cover; }
+  @media only screen and (min-width: 480px) {
+    .banner {
+      height: 315px; } }
+  @media only screen and (min-width: 960px) {
+    .banner {
+      height: 362px; } }
+
+.banner-border {
+  position: absolute;
+  background: url("img/wave-mobile.png") no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  height: 115px;
+  z-index: 2;
+  top: 250px;
+  left: 0;
+  right: 0; }
+  @media only screen and (min-width: 480px) {
+    .banner-border {
+      background: url("img/wave-tablet.png") no-repeat 0 0;
+      top: 269px;
+      background-size: cover;
+      height: 85px; } }
+  @media only screen and (min-width: 960px) {
+    .banner-border {
+      background: url("img/wave.png") no-repeat 0 0;
+      background-size: cover;
+      top: 300px;
+      height: 100px; } }
+
+.banner-title {
+  position: absolute;
+  top: 278px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-shadow: 2px 2px 8px #ffffff;
+  z-index: 3; }
+  @media only screen and (min-width: 480px) {
+    .banner-title {
+      font-size: 3em;
+      width: 400px;
+      top: 63px;
+      left: 9px;
+      margin: 0;
+      line-height: 60px; } }
+
+.main {
+  background-color: #ffffff;
+  padding: 60px 25px;
+  text-align: center; }
+
+.intro-title {
+  margin-top: 50px;
+  margin-bottom: 45px; }
+  @media only screen and (min-width: 480px) {
+    .intro-title {
+      margin-top: 0; } }
+
+.intro-subtitle {
+  color: #ed1c2e;
+  margin-bottom: 45px; }
+
+.intro-text {
+  margin-bottom: 45px; }
+
+.intro-button {
+  margin-top: 65px; }
+
+.intro-button a {
+  background-color: #ed1c2e;
+  color: #ffffff;
+  padding: 8px 25px;
+  border-radius: 10px; }
+
+footer {
+  position: relative;
+  margin-top: 200px;
+  background-color: #fbeb2e;
+  padding: 0 17px 17px; }
+  @media only screen and (min-width: 780px) {
+    footer {
+      padding: 0px 25px 31px 25px; } }
+
+.footer-logo {
+  display: block;
+  position: absolute;
+  width: 203px;
+  left: 0;
+  top: -93px;
+  z-index: 2; }
+  @media only screen and (min-width: 780px) {
+    .footer-logo {
+      top: -77px; } }
+
+.footer-slogan {
+  position: relative;
+  width: 287px;
+  color: #ed1c2e;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+  @media only screen and (min-width: 780px) {
+    .footer-slogan {
+      position: absolute;
+      width: auto;
+      top: -75px;
+      right: 0; } }
+
+.footer-border {
+  position: absolute;
+  background: url("img/wave-mobile.png") no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  right: 0; }
+  @media only screen and (min-width: 480px) {
+    .footer-border {
+      background: url("img/wave-tablet.png") no-repeat 0 0;
+      background-size: cover;
+      height: 78px; } }
+  @media only screen and (min-width: 960px) {
+    .footer-border {
+      background: url("img/wave.png") no-repeat 0 0;
+      background-size: cover;
+      height: 78px;
+      top: -47px; } }
+
+.footer-links {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0; }
+  @media only screen and (min-width: 780px) {
+    .footer-links {
+      text-align: left;
+      padding: 30px 30px;
+      display: inline-block;
+      vertical-align: top;
+      width: 187px; } }
+
+.footer-link {
+  margin-bottom: 15px; }
+
+.footer-links-vakanties {
+  display: none; }
+  @media only screen and (min-width: 780px) {
+    .footer-links-vakanties {
+      display: inline-block;
+      vertical-align: top;
+      width: 500px; } }
+  @media only screen and (min-width: 1320px) {
+    .footer-links-vakanties {
+      width: 750px; } }
+
+.footer-links-vakanties h5 {
+  margin-top: 0; }
+
+.footer-links-sunweb {
+  width: 117px; }
+
+#footer-links-auto {
+  padding-top: 0; }
+  @media only screen and (min-width: 1320px) {
+    #footer-links-auto {
+      padding-top: 30px; } }
+
+.footer-links-contact {
+  display: none; }
+  @media only screen and (min-width: 780px) {
+    .footer-links-contact {
+      display: block;
+      width: 570px;
+      margin-left: 179px; } }
+
+.footer-links-contact h5 {
+  margin-top: 0; }
+
+#footer-links-contactus {
+  width: 281px;
+  line-height: 9px;
+  padding-top: 0;
+  padding-right: 0;
+  margin-left: 54px; }
+
+#footer-links-social {
+  width: 127px;
+  padding-top: 0; }
+
+#footer-links-social li {
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
