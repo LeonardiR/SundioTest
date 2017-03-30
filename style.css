@@ -436,7 +436,7 @@ footer {
   padding: 0 17px 17px; }
   @media only screen and (min-width: 780px) {
     footer {
-      padding: 0px 25px 31px 25px; } }
+      padding: 0 25px 31px 25px; } }
 
 .footer-logo {
   display: block;
@@ -446,6 +446,9 @@ footer {
   top: -93px;
   z-index: 2; }
   @media only screen and (min-width: 780px) {
+    .footer-logo {
+      top: -98px; } }
+  @media only screen and (min-width: 1320px) {
     .footer-logo {
       top: -77px; } }
 
@@ -460,8 +463,12 @@ footer {
     .footer-slogan {
       position: absolute;
       width: auto;
-      top: -75px;
-      right: 0; } }
+      right: 0;
+      top: -98px; } }
+  @media only screen and (min-width: 1320px) {
+    .footer-slogan {
+      right: 249px;
+      top: -77px; } }
 
 .footer-border {
   position: absolute;
@@ -482,8 +489,8 @@ footer {
     .footer-border {
       background: url("img/wave.png") no-repeat 0 0;
       background-size: cover;
-      height: 78px;
-      top: -47px; } }
+      height: 140px;
+      top: -87px; } }
 
 .footer-links {
   display: block;

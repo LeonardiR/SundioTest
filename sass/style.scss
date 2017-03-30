@@ -156,7 +156,7 @@ footer {
   margin-top: 200px;
   background-color: $yellow;
   padding: 0 17px 17px;
-  @include respond-to(medium-screens-footer){ padding: 0px 25px 31px 25px;};
+  @include respond-to(medium-screens-footer){ padding: 0 25px 31px 25px;};
 }
 .footer-logo {
   display: block;
@@ -165,7 +165,8 @@ footer {
   left: 0;
   top: -93px;
   z-index: 2;
-  @include respond-to(medium-screens-footer){top: -77px;};
+  @include respond-to(medium-screens-footer){top: -98px;};
+  @include respond-to(wide-screens-footer){top: -77px;};
 }
 .footer-slogan {
   position: relative;
@@ -174,7 +175,8 @@ footer {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 30px;
-  @include respond-to(medium-screens-footer){position: absolute; width: auto; top: -75px; right: 0;};
+  @include respond-to(medium-screens-footer){position: absolute; width: auto; right: 0; top:-98px;;};
+  @include respond-to(wide-screens-footer){right: 249px; top:-77px;};
 }
 .footer-border{
   position: absolute;
@@ -187,7 +189,7 @@ footer {
   left: 0;
   right: 0;
   @include respond-to(medium-screens) { background: url("img/wave-tablet.png") no-repeat 0 0; background-size: cover; height: 78px;};
-  @include respond-to(wide-screens){background: url("img/wave.png") no-repeat 0 0; background-size: cover; height: 78px; top:-47px};
+  @include respond-to(wide-screens){background: url("img/wave.png") no-repeat 0 0; background-size: cover; height: 140px; top: -87px;};
 }
 .footer-links{
   display: block;
